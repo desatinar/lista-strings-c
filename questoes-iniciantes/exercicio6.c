@@ -19,6 +19,7 @@ int main(){
     printf("Digite um texto: ");
     scanf("%s", input);
     output = minha_strrchr(input, 'c');
+    
     printf("Ultimo indice encontrado: %d", output);
 
     return 0;

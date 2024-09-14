@@ -6,7 +6,7 @@
 void minha_strcpy(char origem[100], char destino[100]){
     int i = 0;
 
-    for(i; i < 100; i++){
+    for(i; origem[i] != '\0'; i++){
         destino[i] = origem[i];
     }
 

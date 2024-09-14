@@ -6,12 +6,10 @@
 void minha_strlen(char string[100]){
     int i = 0;
     
-    for(i; i < 100; i++){
-        if(string[i] == '\0'){
-            printf("Quantidade de caracteres: %d", i);
-            return;
-        }
+    for(i; string[i] != '\0'; i++){
     }
+    
+    printf("Quantidade de caracteres: %d", i);
 }
 
 int main(){
