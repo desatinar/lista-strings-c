@@ -20,7 +20,9 @@ int main(){
     char palavra1[100];
     char palavra2[100];
 
+    printf("Digite a primeira palavra: ");
     scanf("%s", palavra1);
+    printf("Digite a segunda palavra: ");
     scanf("%s", palavra2);
 
     minha_strcat(palavra1, palavra2);
