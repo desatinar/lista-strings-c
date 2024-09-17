@@ -6,6 +6,17 @@
 #include <stdio.h>
 
 void minha_strncat(char primeira[100], char segunda[100], int n){
+    int i = 0;
+    int j = 0;
+
+    for(i; primeira[i] != '\0'; i++){
+    }
+
+    for(j; j < n; j++){
+        primeira[i++] = segunda[j];
+    }
+
+    printf("Palavra com '%d' letras da segunda palavra: %s", n, primeira);
 
 }
 
