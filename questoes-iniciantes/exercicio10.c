@@ -17,7 +17,6 @@ void minha_strncat(char primeira[100], char segunda[100], int n){
     }
 
     printf("Palavra com '%d' letras da segunda palavra: %s", n, primeira);
-
 }
 
 int main(){
